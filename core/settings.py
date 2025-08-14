@@ -66,6 +66,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "https://iosstest.netlify.app",
