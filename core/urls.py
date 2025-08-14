@@ -21,5 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('shortener.urls')),
-    path('<str:short_code>/', include('shortener.urls')),
+    path('', include('shortener.urls')),
 ]
